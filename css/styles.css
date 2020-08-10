@@ -112,7 +112,7 @@ h1 {
 /* HOME PAGE */
 
 #about-tile, #projects-tile, #cv-tile {
-    height: 500px;
+    height: 550px;
     position: relative;
     border: 2px solid rgba(92, 224, 216, 0.3);
     overflow: hidden;
@@ -124,15 +124,15 @@ h1 {
     box-shadow: 0 1px 5px 1px #cccccc;
 }
 #about-tile {
-    background: url('../images/about-tile.jpg') no-repeat;
+    background: url('../images/about-tile.png') no-repeat;
     background-position: center;
 }
 #projects-tile {
-    background: url('../images/projects-tile.jpg') no-repeat;
+    background: url('../images/projects-tile.png') no-repeat;
     background-position: center;
 }
 #cv-tile {
-    background: url('../images/cv-tile.jpg') no-repeat;
+    background: url('../images/cv-tile.png') no-repeat;
     background-position: center;
 }
 
