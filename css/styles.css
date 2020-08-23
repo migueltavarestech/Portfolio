@@ -5,16 +5,17 @@
 /* START OF HEADER */
 
 #header-nav {
-    background-color: #5CE0D8;
+    background-color: #2986c4;
     border-radius: 0;
     border: 0; 
     box-shadow: 0px 0px 6px 2px rgba(202, 202, 202, 0.42);
     position: relative;
+    margin-bottom: 0;
 }
 
 #header-nav a {
-    color: white;
-    text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.61);
+    color: #292929;
+    /* text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.61); */
 }
 
 .navbar-header {
@@ -30,7 +31,7 @@
 
 #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
-    color: black;
+    color: #292929;
   }
 #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
@@ -45,13 +46,13 @@
     position: absolute;
     float: right;
     width: 10%;
-    background-color: #7B8D93;
-    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.42);
-    text-shadow: 2px 1px 2px rgba(202, 202, 202, 0.42);
+    background-color: #2986c4;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    /* text-shadow: 2px 1px 2px rgba(202, 202, 202, 0.42); */
     right: 20px;
     top: 50px;
-    border-left: 1px solid rgba(255, 255, 255, 0.42);
-    border-right: 1px solid rgba(255, 255, 255, 0.42);
+    /* border-left: 1px solid rgba(255, 255, 255, 0.42);
+    border-right: 1px solid rgba(255, 255, 255, 0.42); */
 }
 
 #collapsable-nav li:hover {
@@ -64,7 +65,7 @@ ul {
 }
 
 li {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.42); */
 }
 
 /* END OF HEADER */
@@ -72,7 +73,7 @@ li {
 /* START OF BODY */
 
 html, body {
-    background-color: #01345B;
+    background-color: #292929;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -81,19 +82,19 @@ html, body {
 h1 {
     font-size: 37px;
     margin-bottom: 20px;
-    text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.61);
-    color: white;
+    text-shadow: 2px 1px 2px rgba(71, 71, 71, 0.2);
+    color: #9fd9d5;
 }
 
 #engineer {
     font-size: 15px;
-    color: #99B3C1;
+    color: #9fd9d5;
     line-height: 0px;
     margin-bottom: 30px;
 }
 
 #product {
-    color: #99B3C1;
+    color: #9fd9d5;
     line-height: 0px;
 }
 
@@ -169,19 +170,24 @@ h1 {
 #content {
     min-height: calc(100vh - 150px);
 }
+
+#main-content {
+    background-color: #292929 ;
+}
 /* END HOME PAGE */
 
 /* END OF BODY */
 
 /* FOOTER */
 .page-footer {
-    background-color: #FFCF44;
+    background-color: #2986c4;
     border-top: 0;
     bottom: 0;
     width: 100%;
     height: 50px;
     left: 0px;
     display: block;
+    color: #292929;
 }
 
 #footer-row {
