@@ -180,6 +180,11 @@ h1 {
     background-color: #292929 ;
 }
 
+#about-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 
 /* END HOME PAGE */
 
@@ -189,8 +194,8 @@ h1 {
     height: 360px;
     position: relative;
     overflow: hidden;
-    margin-top: 25%;
-    margin-bottom: 50px;
+    /* margin-top: 25%;
+    margin-bottom: 50px; */
     min-height: 100%;
 }
 
@@ -199,43 +204,57 @@ h1 {
     background-position: center;
 }
 
+#about-title {
+    margin-top: 150px;
+}
+
+#wrap {
+    position: relative;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+}
+
+#about-content {
+    min-height: calc(100vh - 310px);
+}
+
 #about-text {
     color: white;
-    margin-top: 20%;
+    margin-top: 65px;
     font-size: 1.2em;
 }
 
 @media (max-width: 1280px) {
-    #photograph {
-        margin-top: 0px;
+    #about-title {
+        margin-top: 50px;
         margin-bottom: 50px;
     }
-
-    #about-text {
-        margin-top: 10%;
+    .vertical-center {
+        margin-bottom: 65px;
     }
 }
 
 @media (max-width: 1200px) {
-    #photograph {
-        margin-top: 0px;
-        margin-bottom: 50px;
-    }
-
     #about-text {
         margin-top: 0;
     }
 }
 
 @media (max-width: 992px) {
-    #photograph {
-        margin-top: 0px;
-        margin-bottom: 50px;
-    }
-
     #about-text {
         margin-top: 0;
-        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    #about-text {
+        margin-top: 65px;
     }
 }
 
