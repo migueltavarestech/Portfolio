@@ -205,6 +205,40 @@ h1 {
     font-size: 1.2em;
 }
 
+@media (max-width: 1280px) {
+    #photograph {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    #about-text {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #photograph {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    #about-text {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    #photograph {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    #about-text {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}
+
 /* END OF ABOUT PAGE */
 
 /* END OF BODY */
