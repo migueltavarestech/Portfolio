@@ -265,6 +265,45 @@ h1 {
 
 /* END OF ABOUT PAGE */
 
+/* END OF CV PAGE */
+
+#info {
+    background-color: #A0D2EB;
+    height: 100%;
+}
+
+.titles {
+    text-align: right !important;
+    margin-top: 5px !important;
+}
+
+#line {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: #333;
+}
+
+.center {
+    text-align: center;
+}
+
+#location {
+    margin-bottom: 10px;
+}
+
+.margin5 {
+    margin-bottom: 5px;
+}
+
+/* END OF CV PAGE */
+
 /* END OF BODY */
 
 /* FOOTER */
