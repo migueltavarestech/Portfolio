@@ -302,6 +302,76 @@ h1 {
     margin-bottom: 5px;
 }
 
+.top-margin5 {
+    margin-top: 5px;
+}
+
+.top-margin20 {
+    margin-top: 20px !important;
+}
+
+#jobExperienceTitleDiv {
+    margin-top: 5px;
+}
+
+#jobExperienceTitle {
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 5px 30px 5px 30px;
+}
+
+.left-margin15 {
+    margin-left: 15px;
+}
+
+.vertical-line {
+    border-right: 2px solid #008ddc;
+    height: 430px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#detailedCV {
+    color: white;
+}
+
+#entura-logo {
+    float: left;
+}
+
+#resources {
+    margin-right: 10px;
+}
+
+.font9 {
+    font-size: 9px;
+}
+
+.text-box {
+    background-color: rgb(97, 97, 97);
+    padding: 10px;
+    width: 100%;
+    margin-left: 190px;
+    margin-top: 5px;
+}
+
+.position-title {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.job-title {
+    float: left;
+}
+
+.font11 {
+    font-size: 11px;
+}
+
 /* END OF CV PAGE */
 
 /* END OF BODY */
