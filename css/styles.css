@@ -335,6 +335,14 @@ h1 {
     margin-left: 20px;
 }
 
+#wraps-line {
+    border-right: 2px solid #46150c;
+    height: 430px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 #detailedCV {
     color: white;
 }
@@ -370,6 +378,14 @@ h1 {
 
 .font11 {
     font-size: 11px;
+}
+
+.top-margin40 {
+    margin-top: 40px !important;
+}
+
+.top-margin80 {
+    margin-top: 80px !important;
 }
 
 /* END OF CV PAGE */
