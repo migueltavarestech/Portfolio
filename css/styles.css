@@ -267,11 +267,6 @@ h1 {
 
 /* END OF CV PAGE */
 
-#info {
-    background-color: #A0D2EB;
-    height: 100%;
-}
-
 .titles {
     text-align: right !important;
     margin-top: 5px !important;
@@ -454,9 +449,10 @@ h1 {
 }
 
 #info {
-    height: 3500px;
+    height: 3050px;
     line-height: 40px;
     font-weight: bold;
+    background-color: #A0D2EB;
 }
 
 .left-margin15 {
@@ -475,12 +471,37 @@ h1 {
     .text-box {
         margin-left: 0px;
     }
+
+    #info {
+        height: 4300px;
+    }
+}
+
+@media (max-width: 992px) {
+    #info {
+        height: 5100px;
+    }
 }
 
 @media (max-width: 768px) {
     #CV-titles {
         padding: 5px 30px 5px 30px;
         font-size: 13px;
+    }
+
+    #info {
+        height: 6900px;
+        font-size: 12px;
+    }
+    .score {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #info {
+        height: 7450px;
+        font-size: 10px;
     }
 }
 
