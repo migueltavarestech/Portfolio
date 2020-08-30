@@ -359,7 +359,6 @@ h1 {
 .text-box {
     background-color: rgb(97, 97, 97);
     padding: 10px;
-    width: 100%;
     margin-left: 190px;
     margin-top: 5px;
 }
@@ -468,6 +467,22 @@ h1 {
     margin-left: 80px;
 }
 
+.bottom-margin20 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    .text-box {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    #CV-titles {
+        padding: 5px 30px 5px 30px;
+        font-size: 13px;
+    }
+}
 
 /* END OF CV PAGE */
 
