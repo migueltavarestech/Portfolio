@@ -500,8 +500,112 @@ h1 {
 
 @media (max-width: 480px) {
     #info {
-        height: 7450px;
+        height: 6650px;
         font-size: 10px;
+    }
+    .left-margin30 {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 380px) {
+    #info {
+        height: 7450px;
+        font-size: 8px;
+    }
+    #CV-titles {
+        padding: 5px 30px 5px 30px;
+        font-size: 10px;
+    }
+    .left-margin30 {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 350px) {
+    #info {
+        height: 5350px;
+        font-size: 8px;
+    }
+    #CV-titles {
+        padding: 5px 10px 5px 10px;
+        font-size: 8px;
+    }
+    .left-margin30 {
+        margin-left: 5px;
+    }
+    #detailedCV {
+        font-size: 8px;
+    }
+}
+
+@media (max-height: 600px) {
+    #info {
+        height: 6650px;
+    }
+}
+
+@media (max-height: 630px) and (min-height: 601px) {
+    #info {
+        height: 5350px;
+    }
+}
+
+@media (max-height: 750px) and (min-height: 631px) {
+    #info {
+        height: 7500px;
+    }
+}
+
+@media (max-height: 800px) and (min-height: 751px) {
+    #info {
+        height: 7150px;
+    }
+}
+
+@media (max-height: 850px) and (min-height: 801px) {
+    #info {
+        height: 7350px;
+    }
+}
+
+@media (max-height: 940px) and (min-height: 851px) {
+    #info {
+        height: 5075px;
+    }
+}
+
+@media (max-height: 1000px) and (min-height: 941px) {
+    #info {
+        height: 3100px;
+    }
+}
+
+@media (max-height: 1300px) and (min-height: 1001px) {
+    #info {
+        height: 5100px;
+    }
+}
+
+@media (min-height: 1301px) {
+    #info {
+        height: 4300px;
+    }
+}
+
+@media (max-width: 300px) {
+    #info {
+        height: 5700px;
+        font-size: 7px;
+    }
+    #detailedCV {
+        font-size: 7px;
+    }
+    .left-margin30 {
+        margin-left: 0px;
+    }
+    .left-margin15 {
+        margin-left: 0px;
     }
 }
 
