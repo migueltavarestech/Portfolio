@@ -541,7 +541,7 @@ h1 {
 
 @media (max-height: 600px) {
     #info {
-        height: 6650px;
+        height: 4700px;
     }
 }
 
@@ -551,9 +551,15 @@ h1 {
     }
 }
 
-@media (max-height: 750px) and (min-height: 631px) {
+@media (max-height: 730px) and (min-height: 631px) {
     #info {
-        height: 7500px;
+        height: 6900px;
+    }
+}
+
+@media (max-height: 750px) and (min-height: 731px) {
+    #info {
+        height: 6400px;
     }
 }
 
@@ -565,7 +571,7 @@ h1 {
 
 @media (max-height: 850px) and (min-height: 801px) {
     #info {
-        height: 7350px;
+        height: 6700px;
     }
 }
 
@@ -595,7 +601,7 @@ h1 {
 
 @media (max-width: 300px) {
     #info {
-        height: 5700px;
+        height: 4700px;
         font-size: 7px;
     }
     #detailedCV {
