@@ -542,6 +542,45 @@ h1 {
 
 /* END OF CV PAGE */
 
+/* START OF PROJECTS PAGE */
+
+#projects-content {
+    color: white;
+}
+
+.project-titles {
+    background-color: #437d34;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 0px 21px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 21px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 21px -2px rgba(0,0,0,0.75);
+    margin-bottom: 40px;
+}
+
+.project-columns {
+    background-color: rgb(97, 97, 97);
+    padding: 0;
+    -webkit-box-shadow: 0px 0px 21px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 21px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 21px -2px rgba(0,0,0,0.75);
+    width: calc(width -20px);
+}
+
+#projects-line {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.project-columntitles {
+    text-align: right;
+    margin-right: 10px
+}
+
+/* END OF PROJECTS PAGE */
+
 /* END OF BODY */
 
 /* FOOTER */
