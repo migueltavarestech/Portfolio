@@ -10,3 +10,47 @@
 //     }
 // }
 // window.onload = resizeDivs;
+
+$(document).ready(function(){
+    $("#main-content").load("snippets/index-snippet.html");
+});
+
+$(document).ready(function(){
+    $("#index-button").click(function(){
+        $("#main-content").load("snippets/index-snippet.html", function(responseTxt, statusTxt, jqXHR){
+            if(statusTxt == "error"){
+                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
+            }
+        });
+    });
+});
+
+$(document).ready(function(){
+    $("#about-button").click(function(){
+        $("#main-content").load("snippets/about-snippet.html", function(responseTxt, statusTxt, jqXHR){
+            if(statusTxt == "error"){
+                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
+            }
+        });
+    });
+});
+
+$(document).ready(function(){
+    $("#cv-button").click(function(){
+        $("#main-content").load("snippets/cv-snippet.html", function(responseTxt, statusTxt, jqXHR){
+            if(statusTxt == "error"){
+                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
+            }
+        });
+    });
+});
+
+$(document).ready(function(){
+    $("#projects-button").click(function(){
+        $("#main-content").load("snippets/projects-snippet.html", function(responseTxt, statusTxt, jqXHR){
+            if(statusTxt == "error"){
+                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
+            }
+        });
+    });
+});
