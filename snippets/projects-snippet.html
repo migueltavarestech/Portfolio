@@ -1,0 +1,164 @@
+<div id='content'>
+    <section id='main-title'>
+      <h1 class='text-center'>PROJECTS</h1>
+    </section>
+
+    <div id='health-check-title' class='project-titles text-center'>
+      Multiple Websites Health-Check
+    </div>
+
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='project-columns col-md-4 col-sm-6 col-xs-12 col-1'>
+
+          <div class='project-columntitles top-margin10'>LANGUAGE USED</div>
+          <hr id='projects-line'>
+          <div class='text-center'>Python</div>
+
+          <div class='project-columntitles top-margin20'>MODULES USED</div>
+          <hr id='projects-line'>
+          <div class='text-center row bottom-margin20'>
+            <div class='col-md-6 col-sm-6 col-xs-12'>
+              <div>pandas</div>
+              <div>requests</div>
+              <div>time</div>
+            </div>
+            <div class='col-md-6 col-sm-6 col-xs-12'>
+              <div>cloudscraper</div>
+              <div>urllib3</div>
+              <div>BeautifulSoup</div>
+            </div>
+          </div><!-- End of modules .row -->
+        </div><!-- End of health check 1st column -->
+
+
+        <div class='project-columns col-md-4 col-sm-6 col-xs-12 col-2'>
+
+          <div class='project-columntitles top-margin10'>PURPOSE</div>
+          <hr id='projects-line' class='right-margin-sm'>
+          <div class='text-center top-margin40 purpose-class'>Determine the connection status of any list of websites given on a .csv file, by specifying if the website is Live, Dead, IP Blocked or Protected by Captcha</div>
+
+        </div><!-- End of health check 2nd column -->
+
+        <div class='project-columns col-md-4 col-sm-12 col-xs-12 col-3'>
+
+          <div class='project-columntitles top-margin10'>METHODOLOGY</div>
+          <hr id='projects-line'>
+          <div class='left-margin10'>
+            <div>-Transform .csv into a pd dataframe and iterate through list of websites</div>
+            <div>-Start a requests session and record status_code</div>
+            <div>-Scrape for "Access Denied" or "IP Blocked" words</div>
+            <div>-Determine if website is blank inside</div>
+            <div>-Scrape for captcha forms</div>
+            <div>-Output .csv file with websites and final results</div>
+          </div>
+
+        </div><!-- End of health check 3rd column -->
+      </div><!-- End of .row -->
+    </div><!-- End of health check .container-fluid -->
+
+    <div id='youtube-data-title' class='project-titles text-center top-margin30'>
+      Youtube Title + Keywords Scraper
+    </div>
+
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='project-columns col-md-4 col-sm-6 col-xs-12 col-1'>
+
+          <div class='project-columntitles top-margin10'>LANGUAGE USED</div>
+          <hr id='projects-line'>
+          <div class='text-center'>Python</div>
+
+          <div class='project-columntitles top-margin20'>MODULES USED</div>
+          <hr id='projects-line'>
+          <div class='text-center row bottom-margin20'>
+            <div class='col-md-6 col-sm-6 col-xs-12'>
+              <div>pandas</div>
+              <div>requests</div>
+              <div>time</div>
+            </div>
+            <div class='col-md-6 col-sm-6 col-xs-12'>
+              <div>cloudscraper</div>
+              <div>urllib3</div>
+              <div>BeautifulSoup</div>
+            </div>
+          </div><!-- End of modules .row -->
+        </div><!-- End of youtube data 1st column -->
+
+
+        <div class='project-columns col-md-4 col-sm-6 col-xs-12 col-2'>
+
+          <div class='project-columntitles top-margin10'>PURPOSE</div>
+          <hr id='projects-line' class='right-margin-sm'>
+          <div class='text-center top-margin50 purpose-class'>Automatically collect title + keywords for a list of youtube videos given on a .csv file, even if that video is not available anymore.</div>
+
+        </div><!-- End of youtube data 2nd column -->
+
+        <div class='project-columns col-md-4 col-sm-12 col-xs-12 col-3'>
+
+          <div class='project-columntitles top-margin10'>METHODOLOGY</div>
+          <hr id='projects-line'>
+          <div class='left-margin10'>
+            <div>-Transform .csv into a pd dataframe and iterate through list of websites</div>
+            <div>-Start a requests session and record status_code</div>
+            <div>-Scrape for title of the video using HTML IDs</div>
+            <div>-Scrape for keywords filtering by different elements</div>
+            <div>-Create timeout & connection error exceptions</div>
+            <div>-Output .csv file with websites and final results</div>
+          </div>
+
+        </div><!-- End of youtube data 3rd column -->
+      </div><!-- End of .row -->
+    </div><!-- End of youtube data .container-fluid -->
+
+    <div id='csv-format-title' class='project-titles text-center top-margin30'>
+      CSV Filtering and Formatting
+    </div>
+
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='project-columns col-md-4 col-sm-6 col-xs-12 col-1'>
+
+          <div class='project-columntitles top-margin10'>LANGUAGE USED</div>
+          <hr id='projects-line'>
+          <div class='text-center'>Python</div>
+
+          <div class='project-columntitles top-margin20'>MODULES USED</div>
+          <hr id='projects-line'>
+          <div class='text-center row bottom-margin20'>
+            <div class='col-md-12 col-sm-12 col-xs-12'>
+              <div>pandas</div>
+              <div>os</div>
+              <div>datetime</div>
+              <div>re</div>
+            </div>
+          </div><!-- End of modules .row -->
+        </div><!-- End of csv format 1st column -->
+
+
+        <div class='project-columns col-md-4 col-sm-6 col-xs-12 col-2'>
+
+          <div class='project-columntitles top-margin10'>PURPOSE</div>
+          <hr id='projects-line' class='right-margin-sm'>
+          <div class='text-center top-margin50 purpose-class'>Filter large .csv files by a number of variables, calculate fields based on each row's data and format a new .csv file with the filtered and calculated results.</div>
+
+        </div><!-- End of csv format 2nd column -->
+
+        <div class='project-columns col-md-4 col-sm-12 col-xs-12 col-3 bottom-margin30'>
+
+          <div class='project-columntitles top-margin10'>METHODOLOGY</div>
+          <hr id='projects-line'>
+          <div class='left-margin10'>
+            <div>-Transform .csv into a pd dataframe</div>
+            <div>-Filter dataframe by set variables depending on requirements</div>
+            <div>-Iterate through each row of filtered results</div>
+            <div>-Calculate new field based on data from each row</div>
+            <div>-Create dataframe with filtered/calculated results</div>
+            <div>-Output .csv file with final dataframe</div>
+          </div>
+
+        </div><!-- End of csv format 3rd column -->
+      </div><!-- End of .row -->
+    </div><!-- End of csv format .container-fluid -->
+
+</div><!-- End of #main-content -->
