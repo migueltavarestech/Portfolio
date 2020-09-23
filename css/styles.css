@@ -77,18 +77,18 @@ h1 {
     font-size: 37px;
     margin-bottom: 20px;
     -webkit-text-stroke: 0.6px black;
-    color: #c0775c;
+    color: #2986c4;
 }
 
 #engineer {
     font-size: 15px;
-    color: #c0775c;
+    color: #2986c4;
     line-height: 0px;
     margin-bottom: 30px;
 }
 
 #product {
-    color: #c0775c;
+    color: #2986c4;
     line-height: 0px;
 }
 
@@ -354,11 +354,11 @@ h1 {
 }
 
 .text-box {
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(192, 192, 192);
     padding: 10px;
     margin-left: 190px;
     margin-top: 5px;
-    color: #fff;
+    color: #292929;
 }
 
 .position-title {
@@ -565,7 +565,7 @@ h1 {
 }
 
 .project-titles {
-    background-color: #437d34;
+    background-color: #A0D2EB;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 20px;
@@ -575,7 +575,7 @@ h1 {
 }
 
 .project-columns {
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(192, 192, 192);
     padding: 0;
     box-sizing: border-box;
     background-clip: padding-box;
