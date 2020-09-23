@@ -13,9 +13,6 @@
 
 $(document).ready(function(){
     $("#main-content").load("snippets/index-snippet.html");
-});
-
-$(document).ready(function(){
     $("#index-button").click(function(){
         $("#main-content").load("snippets/index-snippet.html", function(responseTxt, statusTxt, jqXHR){
             if(statusTxt == "error"){
@@ -23,9 +20,6 @@ $(document).ready(function(){
             }
         });
     });
-});
-
-$(document).ready(function(){
     $("#about-button").click(function(){
         $("#main-content").load("snippets/about-snippet.html", function(responseTxt, statusTxt, jqXHR){
             if(statusTxt == "error"){
@@ -33,9 +27,6 @@ $(document).ready(function(){
             }
         });
     });
-});
-
-$(document).ready(function(){
     $("#cv-button").click(function(){
         $("#main-content").load("snippets/cv-snippet.html", function(responseTxt, statusTxt, jqXHR){
             if(statusTxt == "error"){
@@ -43,11 +34,36 @@ $(document).ready(function(){
             }
         });
     });
-});
-
-$(document).ready(function(){
     $("#projects-button").click(function(){
         $("#main-content").load("snippets/projects-snippet.html", function(responseTxt, statusTxt, jqXHR){
+            if(statusTxt == "error"){
+                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
+            }
+        });
+    });
+    $(document).on('click', "#about-tile", function(){
+        $("#main-content").load("snippets/about-snippet.html", function(responseTxt, statusTxt, jqXHR){
+            if(statusTxt == "error"){
+                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
+            }
+        });
+    });
+    $(document).on('click', "#projects-tile", function(){
+        $("#main-content").load("snippets/projects-snippet.html", function(responseTxt, statusTxt, jqXHR){
+            if(statusTxt == "error"){
+                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
+            }
+        });
+    });
+    $(document).on('click', "#cv-tile", function(){
+        $("#main-content").load("snippets/cv-snippet.html", function(responseTxt, statusTxt, jqXHR){
+            if(statusTxt == "error"){
+                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
+            }
+        });
+    });
+    $("#homepage").click(function(){
+        $("#main-content").load("snippets/index-snippet.html", function(responseTxt, statusTxt, jqXHR){
             if(statusTxt == "error"){
                 alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
             }
