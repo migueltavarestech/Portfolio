@@ -54,17 +54,9 @@ $(document).ready(function(){
     $("#index-button").click(function(){
         page = 'index';
         if(language == 'portuguese'){
-            $("#main-content").load("snippets/indexPT-snippet.html", function(responseTxt, statusTxt, jqXHR){
-                if(statusTxt == "error"){
-                    alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
-                }
-            });
+            $("#main-content").load("snippets/indexPT-snippet.html");
         } else {
-            $("#main-content").load("snippets/index-snippet.html", function(responseTxt, statusTxt, jqXHR){
-                if(statusTxt == "error"){
-                    alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
-                }
-            });
+            $("#main-content").load("snippets/index-snippet.html");
         }
         $("#home-link").attr('class', 'active');
         $("#about-link").attr('class', 'none');
@@ -75,11 +67,11 @@ $(document).ready(function(){
 
     $("#about-button").click(function(){
         page = 'about';
-        $("#main-content").load("snippets/about-snippet.html", function(responseTxt, statusTxt, jqXHR){
-            if(statusTxt == "error"){
-                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
-            }
-        });
+        if(language == 'portuguese'){
+            $("#main-content").load("snippets/aboutPT-snippet.html");
+        } else {
+            $("#main-content").load("snippets/about-snippet.html");
+        }
         $("#home-link").attr('class', 'none');
         $("#about-link").attr('class', 'active');
         $("#projects-link").attr('class', 'none');
@@ -89,11 +81,11 @@ $(document).ready(function(){
 
     $("#cv-button").click(function(){
         page = 'cv';
-        $("#main-content").load("snippets/cv-snippet.html", function(responseTxt, statusTxt, jqXHR){
-            if(statusTxt == "error"){
-                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
-            }
-        });
+        if(language == 'portuguese'){
+            $("#main-content").load("snippets/cvPT-snippet.html");
+        } else {
+            $("#main-content").load("snippets/cv-snippet.html");
+        }
         $("#home-link").attr('class', 'none');
         $("#about-link").attr('class', 'none');
         $("#projects-link").attr('class', 'none');
@@ -103,11 +95,11 @@ $(document).ready(function(){
 
     $("#projects-button").click(function(){
         page = 'projects';
-        $("#main-content").load("snippets/projects-snippet.html", function(responseTxt, statusTxt, jqXHR){
-            if(statusTxt == "error"){
-                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
-            }
-        });
+        if(language == 'portuguese'){
+            $("#main-content").load("snippets/projectsPT-snippet.html");
+        } else {
+            $("#main-content").load("snippets/projects-snippet.html");
+        }
         $("#home-link").attr('class', 'none');
         $("#about-link").attr('class', 'none');
         $("#projects-link").attr('class', 'active');
@@ -117,11 +109,11 @@ $(document).ready(function(){
 
     $(document).on('click', "#about-tile", function(){
         page = 'about';
-        $("#main-content").load("snippets/about-snippet.html", function(responseTxt, statusTxt, jqXHR){
-            if(statusTxt == "error"){
-                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
-            }
-        });
+        if(language == 'portuguese'){
+            $("#main-content").load("snippets/aboutPT-snippet.html");
+        } else {
+            $("#main-content").load("snippets/about-snippet.html");
+        }
         $("#home-link").attr('class', 'none');
         $("#about-link").attr('class', 'active');
         $("#projects-link").attr('class', 'none');
@@ -131,11 +123,11 @@ $(document).ready(function(){
 
     $(document).on('click', "#projects-tile", function(){
         page = 'projects';
-        $("#main-content").load("snippets/projects-snippet.html", function(responseTxt, statusTxt, jqXHR){
-            if(statusTxt == "error"){
-                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
-            }
-        });
+        if(language == 'portuguese'){
+            $("#main-content").load("snippets/projectsPT-snippet.html");
+        } else {
+            $("#main-content").load("snippets/projects-snippet.html");
+        }
         $("#home-link").attr('class', 'none');
         $("#about-link").attr('class', 'none');
         $("#projects-link").attr('class', 'active');
@@ -145,11 +137,11 @@ $(document).ready(function(){
 
     $(document).on('click', "#cv-tile", function(){
         page = 'cv';
-        $("#main-content").load("snippets/cv-snippet.html", function(responseTxt, statusTxt, jqXHR){
-            if(statusTxt == "error"){
-                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
-            }
-        });
+        if(language == 'portuguese'){
+            $("#main-content").load("snippets/cvPT-snippet.html");
+        } else {
+            $("#main-content").load("snippets/cv-snippet.html");
+        }
         $("#home-link").attr('class', 'none');
         $("#about-link").attr('class', 'none');
         $("#projects-link").attr('class', 'none');
@@ -159,11 +151,11 @@ $(document).ready(function(){
 
     $("#homepage").click(function(){
         page = 'index';
-        $("#main-content").load("snippets/index-snippet.html", function(responseTxt, statusTxt, jqXHR){
-            if(statusTxt == "error"){
-                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
-            }
-        });
+        if(language == 'portuguese'){
+            $("#main-content").load("snippets/indexPT-snippet.html");
+        } else {
+            $("#main-content").load("snippets/index-snippet.html");
+        }
         $("#home-link").attr('class', 'active');
         $("#about-link").attr('class', 'none');
         $("#projects-link").attr('class', 'none');
