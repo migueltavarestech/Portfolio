@@ -4,18 +4,18 @@
     </section>
 
     <div id='health-check-title' class='project-titles text-center'>
-      Multiple Websites Health-Check
+      Health-Check de vários websites
     </div>
 
     <div class='container-fluid'>
       <div class='row'>
         <div class='project-columns col-md-4 col-sm-6 col-xs-12 col-1'>
 
-          <div class='project-columntitles top-margin10'>LANGUAGE USED</div>
+          <div class='project-columntitles top-margin10'>LINGUAGEM</div>
           <hr id='projects-line'>
           <div class='text-center'>Python</div>
 
-          <div class='project-columntitles top-margin20'>MODULES USED</div>
+          <div class='project-columntitles top-margin20'>MÓDULOS USADOS</div>
           <hr id='projects-line'>
           <div class='text-center row bottom-margin20'>
             <div class='col-md-6 col-sm-6 col-xs-12'>
@@ -34,23 +34,26 @@
 
         <div class='project-columns col-md-4 col-sm-6 col-xs-12 col-2'>
 
-          <div class='project-columntitles top-margin10'>PURPOSE</div>
+          <div class='project-columntitles top-margin10'>USADO PARA</div>
           <hr id='projects-line' class='right-margin-sm'>
-          <div class='text-center purpose-class'>Determine the connection status of any list of websites given on a .csv file, by specifying if the website is Live, Dead, IP Blocked or Protected by Captcha</div>
+          <div class='text-center purpose-class'>
+            Determinar o status_code de cada website presente em uma lista 
+            dentro de um ficheiro .csv, e também especificar se o website está a funcionar, está morto,
+            bloqueado para um específico IP, ou está protegido por Captchas.</div>
 
         </div><!-- End of health check 2nd column -->
 
         <div class='project-columns col-md-4 col-sm-12 col-xs-12 col-3'>
 
-          <div class='project-columntitles top-margin10'>METHODOLOGY</div>
+          <div class='project-columntitles top-margin10'>METODOLOGIA</div>
           <hr id='projects-line'>
           <div class='left-margin10'>
-            <div>-Transform .csv into a pd dataframe and iterate through list of websites</div>
-            <div>-Start a requests session and record status_code</div>
-            <div>-Scrape for "Access Denied" or "IP Blocked" words</div>
-            <div>-Determine if website is blank inside</div>
-            <div>-Scrape for captcha forms</div>
-            <div>-Output .csv file with websites and final results</div>
+            <div>-Transformar .csv em um pd dataframe e iterar pela lista de websites</div>
+            <div>-Começar uma sessão de requests e determinar status_code</div>
+            <div>-Pesquisar por "Access Denied" ou "IP Blocked"</div>
+            <div>-Determinar se o website não tem conteúdo</div>
+            <div>-Pesquisar por formulários captcha</div>
+            <div>-Extrair lista de websites e resultados em .csv</div>
           </div>
 
         </div><!-- End of health check 3rd column -->
@@ -65,11 +68,11 @@
       <div class='row'>
         <div class='project-columns col-md-4 col-sm-6 col-xs-12 col-1'>
 
-          <div class='project-columntitles top-margin10'>LANGUAGE USED</div>
+          <div class='project-columntitles top-margin10'>LINGUAGEM</div>
           <hr id='projects-line'>
           <div class='text-center'>Python</div>
 
-          <div class='project-columntitles top-margin20'>MODULES USED</div>
+          <div class='project-columntitles top-margin20'>MÓDULOS USADOS</div>
           <hr id='projects-line'>
           <div class='text-center row bottom-margin20'>
             <div class='col-md-6 col-sm-6 col-xs-12'>
@@ -88,23 +91,26 @@
 
         <div class='project-columns col-md-4 col-sm-6 col-xs-12 col-2'>
 
-          <div class='project-columntitles top-margin10'>PURPOSE</div>
+          <div class='project-columntitles top-margin10'>USADO PARA</div>
           <hr id='projects-line' class='right-margin-sm'>
-          <div class='text-center purpose-class'>Automatically collect title + keywords for a list of youtube videos given on a .csv file, even if that video is not available anymore.</div>
+          <div id='youtube-purpose' class='text-center purpose-class'>
+            Coleccionar automaticamente título e keywords de uma lista de videos do Youtube proveniente
+            de um ficheiro .csv. Este script funciona mesmo se o vídeo não estiver mais disponível, 
+            visitando uma cached-version do website.</div>
 
         </div><!-- End of youtube data 2nd column -->
 
         <div class='project-columns col-md-4 col-sm-12 col-xs-12 col-3'>
 
-          <div class='project-columntitles top-margin10'>METHODOLOGY</div>
+          <div class='project-columntitles top-margin10'>METODOLOGIA</div>
           <hr id='projects-line'>
           <div class='left-margin10'>
-            <div>-Transform .csv into a pd dataframe and iterate through list of websites</div>
-            <div>-Start a requests session and record status_code</div>
-            <div>-Scrape for title of the video using HTML IDs</div>
-            <div>-Scrape for keywords filtering by different elements</div>
-            <div>-Create timeout & connection error exceptions</div>
-            <div>-Output .csv file with websites and final results</div>
+            <div>-Transformar .csv em um pd dataframe e iterar pela lista de websites</div>
+            <div>-Começar uma sessão e determinar status_code</div>
+            <div>-Pesquisar por título do vídeo usando HTML IDs</div>
+            <div>-Encontrar keywords filtrando por elementos</div>
+            <div>-Criar excepções para 'timeout' e 'connection errors'</div>
+            <div>-Extrair lista de websites e resultados em .csv</div>
           </div>
 
         </div><!-- End of youtube data 3rd column -->
@@ -112,18 +118,18 @@
     </div><!-- End of youtube data .container-fluid -->
 
     <div id='csv-format-title' class='project-titles text-center top-margin30'>
-      CSV Filtering and Formatting
+      Filtrar e Formatar CSV
     </div>
 
     <div class='container-fluid'>
       <div class='row'>
         <div class='project-columns col-md-4 col-sm-6 col-xs-12 col-1'>
 
-          <div class='project-columntitles top-margin10'>LANGUAGE USED</div>
+          <div class='project-columntitles top-margin10'>LINGUAGEM</div>
           <hr id='projects-line'>
           <div class='text-center'>Python</div>
 
-          <div class='project-columntitles top-margin20'>MODULES USED</div>
+          <div class='project-columntitles top-margin20'>MÓDULOS USADOS</div>
           <hr id='projects-line'>
           <div class='text-center row bottom-margin20'>
             <div class='col-md-12 col-sm-12 col-xs-12'>
@@ -138,23 +144,26 @@
 
         <div class='project-columns col-md-4 col-sm-6 col-xs-12 col-2'>
 
-          <div class='project-columntitles top-margin10'>PURPOSE</div>
+          <div class='project-columntitles top-margin10'>USADO PARA</div>
           <hr id='projects-line' class='right-margin-sm'>
-          <div class='text-center purpose-class'>Filter large .csv files by a number of variables, calculate fields based on each row's data and format a new .csv file with the filtered and calculated results.</div>
+          <div class='text-center purpose-class'>
+            Filtrar ficheiros .csv de dimensão larga por um número de variáveis à escolha,
+            calcular novas colunas dependendo da informação em cada linha, e formatar
+            um ficheiro .csv novo com os novos resultados filtrados e calculados.</div>
 
         </div><!-- End of csv format 2nd column -->
 
         <div class='project-columns col-md-4 col-sm-12 col-xs-12 col-3 bottom-margin30'>
 
-          <div class='project-columntitles top-margin10'>METHODOLOGY</div>
+          <div class='project-columntitles top-margin10'>METODOLOGIA</div>
           <hr id='projects-line'>
           <div class='left-margin10'>
-            <div>-Transform .csv into a pd dataframe</div>
-            <div>-Filter dataframe by set variables depending on requirements</div>
-            <div>-Iterate through each row of filtered results</div>
-            <div>-Calculate new field based on data from each row</div>
-            <div>-Create dataframe with filtered/calculated results</div>
-            <div>-Output .csv file with final dataframe</div>
+            <div>-Transformar .csv em um pd dataframe e iterar pela lista de websites</div>
+            <div>-Filtrar dataframe por várias variáveis</div>
+            <div>-Iterar por cada linha dos resultados filtrados</div>
+            <div>-Calcular novas colunas dependendo da informação dada</div>
+            <div>-Criar dataframe com os novos resultados</div>
+            <div>-Extrair ficheiro .csv com a dataframe final</div>
           </div>
 
         </div><!-- End of csv format 3rd column -->
