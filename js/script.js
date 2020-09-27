@@ -32,6 +32,10 @@ $(document).ready(function(){
             $("#main-content").load("snippets/cv-snippet.html");
         }
 
+        document.getElementById("about-link").innerHTML = "About";
+        document.getElementById("projects-link").innerHTML = "Projects";
+        document.getElementById("gototop").innerHTML = "Go To Top";
+
     });
     $("#portuguese-flag").click(function(){
         language = 'portuguese';
@@ -47,6 +51,10 @@ $(document).ready(function(){
         } else if(page == 'cv'){
             $("#main-content").load("snippets/cvPT-snippet.html");
         }
+
+        document.getElementById("about-link").innerHTML = "Sobre";
+        document.getElementById("projects-link").innerHTML = "Projetos";
+        document.getElementById("gototop").innerHTML = "Voltar para Cima";
 
     });
 
