@@ -705,6 +705,17 @@ h1 {
     }
 }
 
+.github-links {
+    font-size: 13px;
+    float: right;
+    margin-right: 10px;
+}
+
+.github-links:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 /* END OF PROJECTS PAGE */
 
 /* END OF BODY */
