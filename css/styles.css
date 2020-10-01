@@ -30,9 +30,11 @@
     margin-right: 5px;
   }
 
-.navbar-brand span {
+.navbar-brand {
     vertical-align: middle;
+    padding: 5px 0px 0px 5px;
 }
+
 
 @media (max-width: 768px) {
     #collapsable-nav {
@@ -84,14 +86,14 @@ ul {
 
 #english-flag {
     position: absolute;
-    top: 55px;
-    left: 5px;
+    top: 10px;
+    left: 55px;
 }
 
 #portuguese-flag {
     position: absolute;
-    top: 55px;
-    left: 50px;
+    top: 10px;
+    left: 102.5px;
 }
 
 #english-flag:hover {
@@ -665,6 +667,11 @@ h1 {
 .project-columntitles {
     text-align: right;
     margin-right: 10px;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .top-margin50 {

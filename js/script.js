@@ -157,7 +157,7 @@ $(document).ready(function(){
     });
 
 
-    $("#homepage").click(function(){
+    $("#portfolio-home").click(function(){
         page = 'index';
         if(language == 'portuguese'){
             $("#main-content").load("snippets/indexPT-snippet.html");
