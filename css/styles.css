@@ -723,6 +723,23 @@ h1 {
     text-decoration: underline;
 }
 
+.host-links {
+    font-size: 13px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.host-links:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container-fluid {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 /* END OF PROJECTS PAGE */
 
 /* END OF BODY */
