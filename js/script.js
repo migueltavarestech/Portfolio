@@ -54,7 +54,7 @@ $(document).ready(function(){
 
         document.getElementById("about-link").innerHTML = "Sobre";
         document.getElementById("projects-link").innerHTML = "Projetos";
-        document.getElementById("gototop").innerHTML = "Voltar para Cima";
+        document.getElementById("gototop").innerHTML = `<a href='#top'>Voltar para Cima</a>`;
 
     });
 
