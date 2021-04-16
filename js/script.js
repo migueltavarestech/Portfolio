@@ -37,6 +37,7 @@ $(document).ready(function(){
         document.getElementById("gototop").innerHTML = "Go To Top";
 
     });
+    
     $("#portuguese-flag").click(function(){
         language = 'portuguese';
         $("#english-flag").attr('class', 'none');
